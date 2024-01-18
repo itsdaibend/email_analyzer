@@ -3,6 +3,9 @@
 This script utilizes the OpenCV and Tesseract OCR libraries to extract email addresses from an image. It provides two different methods for text extraction and selects the one with the highest response.
 
 ## Prerequisites
+- Python 3.10
+- `python3 -m venv env`
+- `source env/bin/activate`
 - `pip install -r requirements.txt`
 - Tesseract OCR installed on your machine. You can download it [here](https://github.com/tesseract-ocr/tesseract).
 
